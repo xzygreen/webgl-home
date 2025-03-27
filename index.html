@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            http-equiv="Cache-Control"
+            content="no-cache" />
+
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no" />
+      
+        <link
+            rel="icon"
+            href="fav.ico " />
+
+        <title>WishMeLz丨生活其实很有趣</title>
+        <meta
+            name="description"
+            content="WishMeLz,WishMeLz个人导航页,生活其实很有趣。" />
+        <meta
+            name="keywords"
+            content="WishMeLz,生活其实很有趣,wish,webgl" />
+        <meta
+            property="og:url"
+            content="https://github.com/WishMelz/webgl-home/" />
+
+        <script
+            type="text/javascript"
+            src="dat.gui.min.js"></script>
+        <style>
+            @font-face {
+                font-family: "iconfont";
+                src: url("iconfont.ttf") format("truetype");
+            }
+
+            * {
+                user-select: none;
+            }
+
+            html,
+            body {
+                overflow: hidden;
+                background-color: #000;
+            }
+
+            body {
+                margin: 0;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+            }
+
+            canvas {
+                width: 100%;
+                height: 100%;
+            }
+            .wrap {
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                color: #fff;
+                pointer-events: none;
+                text-align: center;
+            }
+            .main {
+                position: absolute;
+                top: 25%;
+                left: 0;
+                right: 0;
+            }
+            h1 {
+                font-size: 4rem;
+            }
+            footer {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 20px;
+            }
+            footer a {
+                pointer-events: auto;
+                color: #fff;
+            }
+            footer span {
+                font-size: 12px;
+            }
+        </style>
+        <script>
+            window.ga =
+                window.ga ||
+                function () {
+                    (ga.q = ga.q || []).push(arguments);
+                };
+            ga.l = +new Date();
+            ga("create", "UA-105392568-1", "auto");
+            ga("send", "pageview");
+        </script>
+    </head>
+    <body>
+        <canvas></canvas>
+        <div class="wrap">
+            <div class="main">
+                <h1>WishMelz</h1>
+                <h2>生活其实很有趣</h2>
+            </div>
+            <footer>©2018-2025 WishMeLz. Design：ITSSE.CN</footer>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

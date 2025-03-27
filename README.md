@@ -1,2 +1,3 @@
-# webgl-home
-webgl实现的个人首页
+# WEBGLHOME
+改编自：https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+
